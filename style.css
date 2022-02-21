@@ -297,7 +297,7 @@ p {
   display: inline-block;
   position: relative;
   top: 14px;
-  left: 43.7%;
+  left: 44%;
 }
 
 .f-link {
@@ -307,6 +307,6 @@ p {
   text-align: right;
   display: inline-block;
   position: absolute;
-  right: 44%;
-  top: 96.5%;
+  right: 43.5%;
+  top: 93.3%;
 }
