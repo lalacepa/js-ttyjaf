@@ -1,0 +1,312 @@
+html.hide-scroll {
+  overflow: hidden;
+}
+
+html,
+body {
+  display: block;
+  height: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr repeat(1, minmax(100px, auto));
+  grid-auto-rows: 70px 800px 100px;
+  gap: 0px;
+}
+
+.page-responsive {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.box-nav {
+  background-color: #e5e5e5;
+  color: #e5e5e5;
+  border: none;
+  text-align: left;
+}
+
+a {
+  position: relative;
+  top: 20%;
+}
+
+img {
+  vertical-align: middle;
+  border: none;
+}
+
+.desktop {
+  vertical-align: middle;
+  border: none;
+  position: relative;
+  top: 20%;
+  left: 38%;
+}
+
+.laptop {
+  vertical-align: middle;
+  border: none;
+  position: relative;
+  top: 18%;
+  left: 38.5%;
+}
+
+.tablet {
+  vertical-align: middle;
+  border: none;
+  position: relative;
+  top: 18%;
+  left: 38.7%;
+}
+
+.phone-horizontal {
+  vertical-align: middle;
+  border: none;
+  position: relative;
+  top: 20%;
+  left: 38.8%;
+}
+
+.phone {
+  vertical-align: middle;
+  border: none;
+  position: relative;
+  top: 20%;
+  left: 38.9%;
+}
+
+.close {
+  vertical-align: middle;
+  border: none;
+  position: relative;
+  left: 81.5%;
+  bottom: 2%;
+}
+
+.main-responsive {
+  display: block;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.box-main {
+  background-color: #ffffff;
+  color: #ffffff;
+  border: none;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  color: #000000;
+  font-family: Roboto, sans-serif;
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+  top: 0.4px;
+  left: 10px;
+  display: block;
+}
+
+p {
+  display: table;
+  color: #000000;
+  font-family: 'Open sans', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+  position: relative;
+  left: 30.5%;
+  top: 15px;
+}
+
+.central-flex:before {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .central-flex {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(3, 359px);
+  grid-template-rows: repeat(2, 312px);
+  gap: 5px;
+  justify-content: center;
+  position: relative;
+  top: 39px;
+}
+
+.box1 {
+  background-color: #ffffff;
+  padding: 30px;
+  font-size: 240px;
+  font-family: Roboto;
+  font-weight: bolder;
+  color: #e5e5e5;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+  bottom: 42px;
+}
+
+.h1-box {
+  color: #000000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: bolder;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+  left: 0.5px;
+  display: table;
+}
+.p1-box {
+  display: table;
+  align-self: flex-start;
+  color: #000000;
+  font-family: 'Open sans', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  top: 100%;
+  left: 1%;
+}
+
+.box2 {
+  background-color: #ffffff;
+  padding: 30px;
+  text-align: center;
+  font-size: 240px;
+  font-weight: bolder;
+  font-family: Roboto;
+  color: #e5e5e5;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  position: relative;
+  bottom: 42px;
+}
+.box3 {
+  background-color: #ffffff;
+  padding: 30px;
+  text-align: center;
+  font-size: 240px;
+  font-weight: bolder;
+  font-family: Roboto;
+  color: #e5e5e5;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  position: relative;
+  bottom: 43px;
+}
+
+.box4 {
+  background-color: #ffffff;
+  padding: 30px;
+  text-align: center;
+  font-size: 240px;
+  font-weight: bolder;
+  font-family: Roboto;
+  color: #e5e5e5;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  position: relative;
+  bottom: 42px;
+}
+
+.box5 {
+  background-color: #ffffff;
+  padding: 30px;
+  text-align: center;
+  font-size: 240px;
+  font-weight: bolder;
+  font-family: Roboto;
+  color: #e5e5e5;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  position: relative;
+  bottom: 42px;
+}
+.box6 {
+  background-color: #ffffff;
+  padding: 30px;
+  text-align: center;
+  font-size: 240px;
+  font-weight: bolder;
+  font-family: Roboto;
+  color: #e5e5e5;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  position: relative;
+  bottom: 42px;
+}
+
+.box-footer {
+  background-color: #333333;
+  color: #333333;
+  justify-content: center;
+}
+
+.no-link {
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9em;
+  text-align: center;
+  position: relative;
+  left: 850px;
+  top: 15px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.link {
+  color: rgb(153, 211, 245);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9em;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  top: 14px;
+  left: 43.7%;
+}
+
+.f-link {
+  color: rgb(153, 211, 245);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9em;
+  text-align: right;
+  display: inline-block;
+  position: absolute;
+  right: 44%;
+  top: 96.5%;
+}
